@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter6.book/book.iml" filepath="$PROJECT_DIR$/chapter6.book/book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6.checkin/checkin.iml" filepath="$PROJECT_DIR$/chapter6.checkin/checkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6.fares/fares.iml" filepath="$PROJECT_DIR$/chapter6.fares/fares.iml" />
       <module fileurl="file://$PROJECT_DIR$/msaExampleFlight.iml" filepath="$PROJECT_DIR$/msaExampleFlight.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6.search/search.iml" filepath="$PROJECT_DIR$/chapter6.search/search.iml" />
