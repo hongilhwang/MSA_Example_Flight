@@ -15,5 +15,6 @@
     <module>chapter6.fares</module>
     <module>chapter6.search</module>
     <module>chapter6.website</module>
+    <module>configserver</module>
   </modules>
 </project>
