@@ -30,13 +30,11 @@ public class Application implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 		//Search for a flight
-		SearchQuery searchQuery = new SearchQuery("NYC","SFO","22-JAN-18");
+		//SearchQuery searchQuery = new SearchQuery("NYC","SFO","22-JAN-18");
+		SearchQuery searchQuery = new SearchQuery("SEA","SFO","22-JAN-16");
  		//Flight[] flights = searchClient.postForObject("http://search-service/search/get", searchQuery, Flight[].class);
-		 
-		 
-		
 		Flight[] flights = searchClient.postForObject("http://localhost:8083/search/get", searchQuery, Flight[].class);
- 		
+
 		Arrays.asList(flights).forEach(flight -> logger.info(" flight >"+ flight));
   		
 		//create a booking only if there are flights.
