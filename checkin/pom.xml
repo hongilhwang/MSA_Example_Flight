@@ -7,7 +7,7 @@
 	<artifactId>checkin</artifactId>
 	<packaging>jar</packaging>
 
-	<name>chapter6.checkin</name>
+	<name>checkin</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
