@@ -10,11 +10,11 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>chapter6.book</module>
-    <module>chapter6.checkin</module>
-    <module>chapter6.fares</module>
-    <module>chapter6.search</module>
-    <module>chapter6.website</module>
+    <module>book</module>
+    <module>checkin</module>
+    <module>fares</module>
+    <module>search</module>
+    <module>website</module>
     <module>configserver</module>
   </modules>
 </project>
